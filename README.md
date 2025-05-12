@@ -84,10 +84,10 @@ pip install -r requirements.txt
 
 3. Follow the notebooks and scripts in the order:
 
-   * notebooks/ → Data Exploration & Preprocessing
-   * gbt\_model/ → Train GBT model
-   * llm\_model/ → fine-tune RoBERTa
-   * attacks/ → Apply adversarial attacks and evaluate
+   * EDA/ → Data Exploration & Preprocessing
+   * GBT\_model/ → Train GBT model
+   * LLM\_model/ → fine-tune RoBERTa
+   * Attacks/ → Apply adversarial attacks and evaluate
 
 4. Results and visualizations will be saved in `results/`.
 
