@@ -25,9 +25,9 @@ The goal is to evaluate how adversarial attacks can manipulate predictions and t
 │
 ├── data/            → Dataset files 
 ├── EDA/             → Jupyter Notebooks for data analysis and experiments
-├── gbt_model/       → Jupyter Notebooks for Training and evaluation for GBT model
-├── llm_model/       → Scripts for fine-tuning and evaluating RoBERTa LLM
-├── attacks/         → Adversarial attack implementations and experiments
+├── GBT/       → Jupyter Notebooks for Training and evaluation for GBT model
+├── LLM/       → Scripts for fine-tuning and evaluating RoBERTa LLM
+├── ATTACK/         → Adversarial attack implementations and experiments
 ├── results/         → Saved results, plots, and reports
 ├── README.md        → Project description (this file)
 └── requirements.txt → Python dependencies
@@ -53,7 +53,7 @@ Initial data exploration and preprocessing, including:
 
 ### 3. Model Training
 
-* **GBT Model**: Trained on the clean dataset to classify income level.
+* **GBT Model**: trained using scikit-learn GradientBoostingClassifier, which provides excellent stability and interpretability for tabular data classification. Trained on the clean dataset to classify income level.
 * **RoBERTa Model**: Fine-tuned with the dataset converted into a token-based format.
 
 ### 4. Adversarial Attack
@@ -103,5 +103,5 @@ pip install -r requirements.txt
 ## References
 
 1. Adult Income Dataset ([https://archive.ics.uci.edu/ml/datasets/adult](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset))
-2. RoBERTa:
-3. Gradient Boosted Trees:
+2. RoBERTa: Liu, Y. et al. "RoBERTa: A Robustly Optimized BERT Pretraining Approach", arXiv:1907.11692 (2019). [https://arxiv.org/abs/1907.11692]
+3. Gradient Boosted Trees: Scikit-learn Documentation. [https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html]
