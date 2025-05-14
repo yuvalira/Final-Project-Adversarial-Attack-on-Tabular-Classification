@@ -24,12 +24,12 @@ The goal is to evaluate how adversarial attacks can manipulate predictions and t
 /project-root
 │
 ├── data/            → Dataset files 
-├── EDA/             → Jupyter Notebooks for data analysis and experiments
-├── GBT/       → Jupyter Notebooks for Training and evaluation for GBT model
-├── LLM/       → Scripts for fine-tuning and evaluating RoBERTa LLM
-├── ATTACK/         → Adversarial attack implementations and experiments
+├── EDA/             → Jupyter Notebook for data analysis and experiments
+├── GBT/             → Jupyter Notebook for Training and evaluation GBT model and the trained model
+├── LLM/             → Scripts for fine-tuning and evaluating RoBERTa LLM
+├── ATTACK/          → Adversarial attack implementations and experiments
 ├── results/         → Saved results, plots, and reports
-├── README.md        → Project description (this file)
+├── README.md        → Project description
 └── requirements.txt → Python dependencies
 ```
 
