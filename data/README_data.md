@@ -12,7 +12,6 @@ This folder contains the dataset and preprocessing files used for our project:
 | `adult.csv` | Full version of the UCI Adult dataset (imbalanced). Used for initial processing and debugging. |
 | `DataPreparation.py` | Python script for preprocessing the dataset and creating train/test/validation splits. |
 | `label_encoders.pkl` | Saved encoders for categorical columns (used in the GBT pipeline). |
-| `.gitkeep` | Placeholder file to preserve folder structure in Git. |
 
 ---
 
