@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project investigates and compares the robustness of two machine learning models—a Large Language Model (RoBERTa) and a classic Gradient Boosted Tree (GBT)—against adversarial attacks on tabular data classification. The dataset used is the popular **Adult Income dataset**, which contains demographic and employment attributes.
+This project investigates and compares the robustness of two machine learning models, a Large Language Model (RoBERTa) and a classic Gradient Boosted Tree (GBT), against adversarial attacks on tabular data classification. The dataset used is the popular **Adult Income dataset**, which contains demographic and employment attributes.
 
 The goal is to evaluate how adversarial attacks can manipulate predictions and to compare the resilience of both models under attack.
 
@@ -28,7 +28,6 @@ The goal is to evaluate how adversarial attacks can manipulate predictions and t
 ├── GBT/             → Jupyter Notebook for Training and evaluation GBT model and the trained model
 ├── LLM/             → Scripts for fine-tuning and evaluating RoBERTa LLM
 ├── ATTACK/          → Adversarial attack implementations and experiments
-├── results/         → Saved results, plots, and reports
 ├── README.md        → Project description
 └── requirements.txt → Python dependencies
 ```
